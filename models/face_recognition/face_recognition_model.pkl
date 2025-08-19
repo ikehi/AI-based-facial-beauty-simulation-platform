@@ -1,0 +1,3 @@
+# Placeholder for Face recognition model
+# This is a placeholder file for testing
+# In production, this would be a trained AI model

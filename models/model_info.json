@@ -1,0 +1,14 @@
+{
+  "makeup_models": {
+    "beautygan": "Pre-trained BeautyGAN for realistic makeup transfer",
+    "advanced": "Advanced CNN-based makeup model"
+  },
+  "hair_models": {
+    "stylegan2": "Pre-trained StyleGAN2 for hair transformation",
+    "advanced": "Advanced CNN-based hair model"
+  },
+  "face_detection": {
+    "dlib": "68-point facial landmark detection",
+    "opencv": "Haar cascade face detection"
+  }
+}
