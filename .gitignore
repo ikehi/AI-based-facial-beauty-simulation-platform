@@ -1,0 +1,72 @@
+# AI Model Files (too large for GitHub)
+models/makeup_ai/advanced_makeup_model.pth
+models/hair_ai/advanced_hair_model.pth
+models/dlib/shape_predictor_68_face_landmarks.dat
+models/dlib/mmod_human_face_detector.dat
+models/dlib/shape_predictor_68_face_landmarks.dat.bz2
+models/dlib/mmod_human_face_detector.dat.bz2
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Uploads and results
+static/uploads/
+static/results/
+
+# Backup files
+*.bak
+*.backup
+requirements_backup.txt 
