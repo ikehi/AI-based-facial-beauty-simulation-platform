@@ -1,25 +1,36 @@
 # Core dependencies
-opencv-python~=4.12.0.88
-numpy~=2.2.6
-Pillow~=11.3.0
-flask~=3.1.1
-flask-cors
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.1
+flask==3.0.0
+flask-cors==4.0.0
 
-# AI Framework (optional - can be installed separately)
-# tensorflow
-# torch
-# torchvision
+# AI Framework
+torch==2.0.1
+torchvision==0.15.2
 
-# Face Recognition (optional)
-# dlib
-# face-recognition
+# Face Recognition
+dlib==19.24.2
 
 # Image Processing
-scipy~=1.16.1
-scikit-image~=0.25.2
+scipy==1.11.1
+scikit-image==0.21.0
 
 # Utilities
-requests~=2.32.5
-python-dotenv
-torch~=2.8.0
-torchvision~=0.23.0
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Development and Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+mypy==1.5.1
+
+# Real AI Dependencies
+mediapipe==0.10.7
+ultralytics==8.0.196
+
+# Optional: GPU support (uncomment if you have CUDA)
+# torch==2.0.1+cu118
+# torchvision==0.15.2+cu118
