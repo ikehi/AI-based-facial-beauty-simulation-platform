@@ -1,16 +1,15 @@
-# AI Model Files (too large for GitHub)
-models/makeup_ai/advanced_makeup_model.pth
-models/hair_ai/advanced_hair_model.pth
-models/dlib/shape_predictor_68_face_landmarks.dat
-models/dlib/mmod_human_face_detector.dat
-models/dlib/shape_predictor_68_face_landmarks.dat.bz2
-models/dlib/mmod_human_face_detector.dat.bz2
+# Virtual Environment
+venv/
+env/
+ENV/
 
-# Python
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -27,14 +26,62 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# Virtual Environment
-venv/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
 env/
+venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
 # IDE
 .vscode/
@@ -52,21 +99,25 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
+# Output files
+output/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+
+# Model files
+*.pkl
+*.h5
+*.model
+*.weights
+*.dat
+
 # Logs
 *.log
-logs/
-
-# Temporary files
-*.tmp
-*.temp
-temp/
-tmp/
-
-# Uploads and results
-static/uploads/
-static/results/
-
-# Backup files
-*.bak
-*.backup
-requirements_backup.txt 
+logs/ 
